@@ -1,6 +1,4 @@
-- hosts: localhost
-  tasks:
-  - name: create a instance
+- name: create a instance
     google.cloud.gcp_compute_instance:
       name: "test-instance"
       machine_type: "n1-standard-1"
